@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<!-- main website -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agv Edits - Heaven for Editors!!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Agv Edits</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/Agv.Edits.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact us</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signupModal">Signup</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+  
+  <!-- login Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="loginModalLabel">Login to Agv Edits</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Enter your Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <input type="submit" value="Submit">
+                <a href="#" id="forgot-password" style="float:right;">Forgot Password?</a>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Signup Modal -->
+  <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="signupModalLabel">Get an Agv Edits Account</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Enter a Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <input type="submit" value="Submit">
+              </form>
+              
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="img-fluid" src="1.jpg" class="d-block w-100" alt="..." height="700" width="1520">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Nature Edits</h2>
+                    <p>"Nature's beauty, captured through the lens"</p>
+                    <button class="btn btn-danger">Editing</button>
+                    <button class="btn btn-success">Photography</button>
+                    <button class="btn btn-primary">Designing</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="8.jpeg" class="d-block w-100" alt="..." height="700" width="1520">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Event Edits</h2>
+                    <p>"Creating memories that last a lifetime through event photography."</p>
+                    <button class="btn btn-danger">Editing</button>
+                    <button class="btn btn-success">Photography</button>
+                    <button class="btn btn-primary">Designing</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="6.jpg" class="d-block w-100" alt="..." height="700" width="1520">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Monuments Edits</h2>
+                    <p>"Preserving history through the lens of time"</p>
+                    <button class="btn btn-danger">Editing</button>
+                    <button class="btn btn-success">Photography</button>
+                    <button class="btn btn-primary">Designing</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <hr class="featurette-divider">
+
+    <div class="row featurette d-flex justify-content-center align-items-center">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Jai Ganpate Namah!!<span class="text-muted">It’ll blow your
+                    mind.</span></h2>
+            <p class="lead"> The statue, which is said to be one of the largest in Asia, towers over its surroundings,
+                showcasing the intricate carvings and ornamentation that adorn the statue. The statue is made of marble
+                and is said to be over 100 feet tall. The photograph, taken with a simple phone camera and edited by
+                Agrim Varshney, highlights the skill and artistry of the sculptors who created this magnificent statue.
+                The photograph captures the serene and peaceful expression on the face of Ganesha, and the colors and
+                lighting used in the photograph give the statue a sense of grandeur and majesty. Overall, the photograph
+                is a testament to the incredible skill and artistry of the sculptors and the photographer who captured
+                this magnificent statue.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="img-fluid" src="ganesh.jpg" alt="" height="500" width="500"></img>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette d-flex justify-content-center align-items-center">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">It’s that good. <span
+                    class="text-muted">Lighting.</span></h2>
+            <p class="lead">A hypothetical photograph of lighting crackers on Diwali, captured and edited by Agrim
+                Varshney, may showcase the vibrant colors and excitement of the festival of lights. The photograph
+                captures the bright lights and sparks of the fireworks illuminating the night sky. The use of different
+                colors and patterns of the firecrackers creates a beautiful visual display of light and movement. The
+                photograph also captures the joy and excitement of the people celebrating the festival, their faces lit
+                up by the fireworks and the bright lights of Diwali. The photograph, taken with a simple phone camera
+                and edited by Agrim Varshney, showcases the beauty and energy of the Diwali celebration, and the
+                technical skills of the photographer in capturing the essence of the moment. Overall, the photograph is
+                a testament to the joy, beauty, and celebration of Diwali, and how it brings people together.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img class="img-fluid" src="9.jpg" alt="" height="500" width="500"></img>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette d-flex justify-content-center align-items-center">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate
+                    WTP.</span></h2>
+            <p class="lead">A hypothetical photograph of the World Trade Park (WTP) in Jaipur, captured and edited by
+                Agrim Varshney, may showcase the modern and iconic architecture of this commercial complex. The WTP is a
+                shopping mall located in the heart of Jaipur, it is known for its striking glass and steel design, which
+                creates a dramatic contrast with the traditional architecture of the city. The photograph captures the
+                clean lines and sleek design of the building, as well as the bustling energy of the shoppers and
+                visitors that frequent the complex. The photograph, taken with a simple phone camera and edited by Agrim
+                Varshney, showcases the technical skill and artistry of the photographer in capturing the essence of the
+                WTP, its modern design, and the vibrant energy of the people who visit the mall. The photograph
+                highlights the dynamic contrast of the WTP with the traditional architecture of Jaipur and how it has
+                become an iconic symbol of the city's modernity. Overall, the photograph is a testament to the
+                creativity and craftsmanship that went into creating this modern commercial complex.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="img-fluid" src="11.jpg" alt="" height="500" width="500"></img>
+        </div>
+    </div>
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>© 2022–2023 Agv Edits, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
